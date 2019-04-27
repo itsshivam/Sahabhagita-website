@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+
+	<title>Sahabhagita</title>
+	<link rel="shortcut icon" href="/static/images/favicon.png" />
+	
+	
+	<link rel="stylesheet" href="/static/css/basic/bootstrap.css"/>
+	<link rel="stylesheet" href="/static/css/basic/bootstrap.min.css"/>
+	<link rel="stylesheet" href="/static/css/basic/font-awesome.min.css"/>
+	<link rel="stylesheet" href="/static/css/basic/font-awesome.css"/>
+	<script type="text/javascript" src="/static/css/basic/jquery-3.0.0.min.js"></script>
+	<script src="/static/css/basic/sweetalert.min.js"></script> 
+	<link rel="stylesheet" type="text/css" href="/static/css/basic/sweetalert.css">
+	<script src="/static/css/basic/stickyfill.js"></script> 
+	
+
+
+	<link rel="stylesheet" type="text/css" href="/static/css/general.css">
+
+	
+
+
+	<!-- Bootstrap files start from here -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	<!-- Bootstrap files ends here -->
+
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<script src="/static/css/basic/stickyfill.js"></script> 
+
+	
+	<script>
+		$(function(){
+  			$('#sidebar').Stickyfill();
+		});
+
+		function myFunction() {
+    		sweetAlert("Here's a message!","If you are alumni than please sign in for enter in the website");
+		}
+	</script>
+
+
+
+</head>
+<body>
+	
+
+	<nav class="navbar" style="padding-top : 10px; background : rgba(245,245,255,0.9); padding-bottom : 10px; margin-bottom: 0px; box-shadow: inset 0 0 10px #000000;">
+		<div class="container-fluid">
+		    <div class="navbar-header">
+		    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        	<span class="icon-bar"></span>
+		        	<span class="icon-bar"></span>
+		        	<span class="icon-bar"></span>
+		      	</button>
+		      	<a href=""><img class="img-responsive logo" src="/static/images/logo1.png" width="400px" alt = "logo" style="margin-top : 5px; margin-left : 50px;" /></a>
+		    </div>
+
+		    <div class="collapse navbar-collapse" id="myNavbar" style="float: right; ">   
+		        <nav class="nav navbar-nav">
+		        	<li><a href="../home" class="log"><p class="signin" style="border-radius: 5px 5px; background: rgb(128,128,255); ">Welcome</p></a></li>
+		        	<li><a href="../gallery" class="log"><p class="signin" style="border-radius: 5px 5px;">Gallery</p></a></li>
+		        	<li><a href="../members" class="log"><p class="signin" style="border-radius: 5px 5px; ">Members</p></a></li>
+		        	<li><a href="../feedback" class="log"><p class="signin" style="border-radius: 5px 5px;">Discussion</p></a></li>
+					<li><a href="../logout" class="log"><p class="signup">Logout</p></a></li>
+					<li><a href="" class="log"><p class="signin">{{username}}</p></a></li>
+				</nav>
+		    </div>
+	    </div>
+	  </div>
+	</nav>
+
+
+
+
+	<div class="cont">
+		<div class="row">
+			<div class="container-fluid">
+				
+				<div class="sidebar" id="sidebar" style="background : rgba(0,0,125,0.8); width: 25%; float: left;">
+				
+					<div class="topic" style="padding-top : 30px; height : 100vh;">
+						<p class="tag" style="margin-top : 30px; text-align : right;"><a class="welcome">WELCOME</a></p><hr class="mainline">
+						<p class="tag"><a href="#welcome" class="main"><i class="fa fa-home" aria-hidden="true" style="margin-right: 10px; "></i>HOME</a></p>
+						<p class="tag"><a href="#motive" class="main"><i class="fa fa-bullseye" aria-hidden="true" style="margin-right: 10px; "></i>OUR MOTIVE</a></p>
+						<p class="tag"><a href="#events" class="main"><i class="fa fa-calendar" aria-hidden="true" style="margin-right: 10px; "></i>EVENTS</a></p>
+						<p class="tag"><a href="#about" class="main"><i class="fa fa-newspaper-o" aria-hidden="true" style="margin-right: 10px; "></i>ABOUT US</a></p>
+						<p class="tag"><a href="#contact" class="main"><i class="fa fa-users" aria-hidden="true" style="margin-right: 10px; "></i>OUR TEAM</a></p>
+						
+						
+
+
+						<div class="topic" style="padding-top : 10px;">
+							<p class="tag" style="margin-top : 30px; text-align : right;"><a href="#" class="welcome">CONTACT US</a></p><hr class="mainline">
+							<p class="tag1" style="text-align : left; margin-bottom: 0px; "><i class="fa fa-envelope" aria-hidden="true" style="margin-right: 10px; "></i>sahabhagita16@gmail.com</p>
+							
+							<div class="col-md-8 col-md-offset-2" style="margin-bottom: 50px; float: center; ">
+								<a href="https://www.facebook.com/Sahabhagita/?__mref=message_bubble" target="_blank"><i class="fa fa-facebook-square icon"></i></a>
+								<a href=">https://twitter.com/SahabhagitaOrg" target="_blank"><i class="fa fa-twitter-square icon"></i></a>
+								<a href="" target="_blank"><i class="fa fa-youtube-square icon"></i></a>
+							</div>
+
+							<p class="tag" style="text-align: center; color: white; ">2016 &#169; Sahabhagita</p>
+							<p class="tag" style="text-align: center; color: white; ">Created by <a href="https://itsshivam.github.io/" target="_blank" style="color : rgb(200,200,255);">Shivam Pal</a></p>
+
+
+						</div>
+
+
+					</div>
+				</div>
+
+				<div class="mainbar">
+
+					<div class="col-md-12" id="welcome">
+						<div class="topic" style="padding-top : 0px;">
+							<div class="col-md-10 col-md-offset-1" style="margin-top : 50px;">
+								<p class="intro1"><strong>Welcome You all to the Sahabhagita Page</strong></p><br><hr class="style2" style="margin-top: -20px;">
+							</div>
+							<div class="col-md-6 col-md-offset-3" style="margin-top : 5px;">
+								<img class="img-responsive" src="/static/images/welcome.png" width="400px" alt = "sahabhagita" />
+							</div>	
+						</div>
+					</div>
+
+
+
+
+
+
+					<div class="col-md-12" id="motive">
+						<div class="topic" style="padding-top : 50px;">
+							<div class="vision col-md-10" style="margin-bottom : 50px;">
+								<div class="col-md-10 col-md-offset-1">
+									<h6 class="heavi"><img class="img-responsive" src="/static/images/arrow1.png" width="75x" alt = "bullet" style="float: left; margin-right: 10px; " />Our Motive<img class="img-responsive" src="/static/images/arrow1.png" width="75x" alt = "bullet" style="float: right; margin-right: 10px; " /></h6><hr class="style2">
+								</div>
+
+								<div class="col-md-10 col-md-offset-1" style="margin-top : 0px; margin-bottom: 30px;">
+									<p class="intro" style="color: rgb(110,110,255);">Do you feel nostalgic whenever you pass by some school building? Do you recall the Saraswati Vandana, the melodious – “Ya Kundendu Tushaar Haar Dhavalaa” when you get a chance to hear the prayer of some school? Or the “Sahanabhavatu Sahanobhunaktu” with biting stomach sitting in the verandah during madhyavakash? Were you ever afraid of being called “Bhaiyya” or “Bahin” by your crush in school as that used to be the usual way of addressing each other? Does your heart beats fast recalling the numerous “Maasik Geets” you would have sung in chorus during Vandana? Or the notorious “Acharyaji” who made you do “Shaaririk” with peculiar jargon of “Daksha” and “Ahrama” alien to the rest of world? Do you, sometimes, miss those celebrations in the form of Jayantis, Kishor Sabhas, Jhankis, and other cultural activities?</p>
+									<p class="intro">If the answer to most of the above questions is yes, it means that a true Vidya Mandirian is still alive in you.</p>
+									<p class="intro">Friends, through this initiative we want to reach all the alumni of Saraswati Vidya Mandir so that we can bring them under one umbrella which we have named as ‘Sahabhagita’: a collective participation of Alumni. </p>
+									<p class="intro">Through this platform we shall try to give back to our schools which helped us build our character and strong values that we adhere to.</p>
+									<p class="intro">All the alumni of schools affiliated to Vidya Bharati are requested to please register to Sahabhagita. We are here to connect you with your alma mater. </p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+					<div class="col-md-6" id="events">
+						<div class="topic" style="padding-top: 100px; height : 100vh">
+							<div class="vision col-md-10 col-md-offset-1 motive" style="margin-bottom : 100px; min-height : 70vh;">
+
+								<h6 class="heavi" style="font-size: 30px; "><img class="img-responsive logo2" src="/static/images/arrow1.png" width="75x" alt = "bullet" style="float: left; margin-right: 10px; " />Events<img class="img-responsive logo2" src="/static/images/arrow.png" width="75x" alt = "bullet" style="float: right; margin-right: 10px; " /></h6><hr class="style2">
+								<div class="col-md-6 upcoming" id="up" onclick="upcom()" style="background: rgb(200,200,255); ">
+									<h6 class="upcoming" onclick="upcom()">Upcoming</h6>
+									<!-- <button type="button" onclick="upcom()">upcoming</button> -->
+
+									
+								</div>
+								
+								<div class="col-md-6 recent" onclick="rece()">
+									<h6 class="recent" onclick="rece()">Recent</h6>
+									<!-- <button type="button" onclick="rece()">recent</button> -->
+
+								</div>
+
+								<div class="col-md-12" id="upcoming"  style="overflow-y: scroll; height : 40vh; margin-top : 20px;">
+									<div class="col-md-2">
+										<img class="img-responsive" src="/static/images/upcoming.png" width="100x" alt = "bullet" style="float: left; margin-right: 10px; " />
+									</div>
+									<div class="col-md-10 ">
+										<p class="news" style="font-size: 14px; ">This is update column, here whatever u want u can fill. This is update column, here whatever u want u can fill. This is update column, here whatever u want u.</p>
+									</div>
+								</div>
+
+								<div class="col-md-12" id="recent"  style="overflow-y: scroll; height : 40vh; margin-top : 20px;">
+									<div class="col-md-2">
+										<img class="img-responsive" src="/static/images/recent.png" width="100x" alt = "bullet" style="float: left; margin-right: 10px; " />
+									</div>
+									<div class="col-md-10 ">
+										<p class="news" style="font-size: 14px; ">This is recent column, here whatever u want u can fill. This is recent column, here whatever u want u can fill. This is recent column, here whatever u want u can fill.</p>
+									</div>
+								</div>
+
+							</div>
+
+
+							<script>
+								
+
+								$(document).ready(function(){
+				
+									$("#recent").hide();
+									$("div.upcoming").click(function(){
+										$('div.upcoming').css('background','rgb(200,200,255)');
+										$('div.recent').css('background','rgba(200,200,255,0.5)');
+										$("#upcoming").show();
+										$("#recent").hide();
+										
+									});
+
+									$("div.recent").click(function(){
+										$('div.recent').css('background','rgb(200,200,255)');
+										$('div.upcoming').css('background','rgba(200,200,255,0.5)');
+										$("#upcoming").hide();
+										$("#recent").show();
+									});
+
+								});
+
+							</script>
+						</div>
+					</div>
+
+
+
+					<div class="col-md-6" id="events">
+						<div class="topic" style="padding-top: 100px; height : 100vh">
+							<div class="vision col-md-10 col-md-offset-1 motive" style="margin-bottom : 100px; height : 70vh;">
+
+								<h6 class="heavi" style="font-size: 30px; "><img class="img-responsive" src="/static/images/arrow1.png" width="60x" alt = "bullet" style="float: left; margin-right: 10px; " />News<img class="img-responsive" src="/static/images/arrow.png" width="60x" alt = "bullet" style="float: right; margin-right: 10px; " /></h6><hr class="style2">
+
+								
+								<div class="col-md-10 col-md-offset-1" style="overflow-y: scroll; height : 45vh;">
+									<p class="news"><img class="img-responsive" src="/static/images/star.png" width="20x" alt = "bullet" style="float: left; margin-right: 10px; " />Later will be updated. Later will be updated. Later will be updated.</p><hr class="style2" style="height : 1px; margin-top : 20px; margin-bottom : 20px;">
+									<p class="news"><img class="img-responsive" src="/static/images/star.png" width="20x" alt = "bullet" style="float: left; margin-right: 10px; " />Later will be updated. Later will be updated. Later will be updated.</p><hr class="style2" style="height : 1px; margin-top : 20px; margin-bottom : 20px;">
+									<p class="news"><img class="img-responsive" src="/static/images/star.png" width="20x" alt = "bullet" style="float: left; margin-right: 10px; " />Later will be updated. Later will be updated. Later will be updated.</p><hr class="style2" style="height : 1px; margin-top : 20px; margin-bottom : 20px;">
+									<p class="news"><img class="img-responsive" src="/static/images/star.png" width="20x" alt = "bullet" style="float: left; margin-right: 10px; " />Later will be updated. Later will be updated. Later will be updated.</p><hr class="style2" style="height : 1px; margin-top : 20px; margin-bottom : 20px;">
+									<p class="news"><img class="img-responsive" src="/static/images/star.png" width="20x" alt = "bullet" style="float: left; margin-right: 10px; " />Later will be updated. Later will be updated. Later will be updated.</p><hr class="style2" style="height : 1px; margin-top : 20px; margin-bottom : 20px;">
+									<p class="news"><img class="img-responsive" src="/static/images/star.png" width="20x" alt = "bullet" style="float: left; margin-right: 10px; " />Later will be updated. Later will be updated. Later will be updated.</p><hr class="style2" style="height : 1px; margin-top : 20px; margin-bottom : 20px;">
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+
+
+
+
+
+				
+
+				
+
+					<div class="col-md-12" id="about">
+						<div class="topic" style="padding-top : 50px;">
+							<div class="vision col-md-10 motive" style="margin-bottom : 50px;">
+								<div class="col-md-10 col-md-offset-1">
+									<h6 class="heavi"><img class="img-responsive" src="/static/images/arrow1.png" width="75x" alt = "bullet" style="float: left; margin-right: 10px; " />About us<img class="img-responsive" src="/static/images/arrow1.png" width="75x" alt = "bullet" style="float: right; margin-right: 10px; " /></h6><hr class="style2">
+								</div>
+
+								<div class="col-md-10 col-md-offset-1" style="margin-bottom: 30px; ">
+									<p class="vision"><strong>Sahabhagita</strong> is a collective endeavor to connect the alumni of schools spread across India affiliated to <strong>Vidya Bharati</strong>. It provides a proper forum to facilitate all round development of the nation.</p>
+									<p class="vision"><strong>It acts as a link among the alumni and between the alumni and their alma mater.</strong></p>
+									<p class="vision">Sahabhagita is not just an organisation, it is actually an idea: an idea to connect with each other, an idea to participate collectively, an idea to bring positive change in the lives of many including ourselves, an idea to create a common platform where fresh ideas can blossom, an idea to give wings to our thoughts, an idea to bring the glory back to the nation called Bharat, which itself means “indulged in seeking knowledge”, an idea to... , this list can be endless.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+			
+
+
+
+			
+
+
+
+
+
+
+					<div class="col-md-12" id="contact">
+						<div class="topic" style="padding-top : 100px;">
+							<div class="event col-md-10 col-md-offset-1" style="margin-bottom : 100px;">
+								<div class="col-md-10 col-md-offset-1">
+									<h6 class="heavi"><img class="img-responsive" src="/static/images/arrow1.png" width="75x" alt = "bullet" style="float: left; margin-right: 10px; " />Our Team<img class="img-responsive" src="/static/images/arrow1.png" width="75x" alt = "bullet" style="float: right; margin-right: 10px; " /></h6><hr class="style2">
+								</div>
+								
+								<div class="col-md-10 col-md-offset-1" style="margin-bottom: 30px; ">
+									<p class="intro" style="color: rgb(50,50,255); text-align: center; ">If you have any suggestion or query please contact us.</p>
+								</div>
+
+								<div class="col-md-12">
+								<div class="col-md-1" style="margin-top: 130px; ">
+									<img class="img-responsive" src="/static/images/move1.png" width="50px" alt = "logo" style="cursor: pointer; "  onclick="plusDivs(-1)" />
+								</div>
+
+								<div class="w3-display-container mySlides">
+									<div class="col-md-5">
+										<img class="img-responsive" src="/static/images/image1.jpg" style="border : 1px solid rgb(128,128,255); border-radius: 5px 5px; box-shadow: 0px 0px 10px rgba(128,128,255,0.9);" width="300px" alt = "logo" />
+										<div style="margin-top : 10px; margin-bottom: 10px; ">
+											<p class="mem" style="color: rgb(60,60,255); font-size: 20px; margin-right: 5px; ">Ankur Pathak</p>
+											<p class="mem" style="color: rgb(100,100,255); font-size: 13px;"></p>
+											<p style=" text-align : center; margin-bottom: 40px; color: rgb(50,50,255); margin-top: 10px; "><i class="fa fa-envelope" aria-hidden="true" style="margin-right: 10px;"></i>ankur.india128@gmail.com</p>		
+										</div>									
+									</div>
+
+									<div class="col-md-5">
+										<img class="img-responsive" src="/static/images/image5.jpg"  style="border : 1px solid rgb(128,128,255); border-radius: 5px 5px; box-shadow: 0px 0px 10px rgba(128,128,255,0.9);" width="300px" alt = "logo" />
+										<div style="margin-top : 10px; margin-bottom: 10px; ">
+											<p class="mem" style="color: rgb(60,60,255); font-size: 20px; margin-right: 5px; ">Pushkar Push Yadav</p>
+											<p class="mem" style="color: rgb(100,100,255); font-size: 13px;"></p>
+											<p style=" text-align : center; margin-bottom: 40px; color: rgb(50,50,255); margin-top: 10px; "><i class="fa fa-envelope" aria-hidden="true" style="margin-right: 10px;"></i>ankur.india128@gmail.com</p>
+										</div>
+										
+									</div>
+	  
+								</div>
+
+
+								<div class="w3-display-container mySlides">
+									<div class="col-md-5">
+										<img class="img-responsive" src="/static/images/image3.jpg"  style="border : 1px solid rgb(128,128,255); border-radius: 5px 5px; box-shadow: 0px 0px 10px rgba(128,128,255,0.9);" width="300px" alt = "logo" />
+										<div style="margin-top : 10px; margin-bottom: 10px; ">
+											<p class="mem" style="color: rgb(60,60,255); font-size: 20px; margin-right: 5px; ">Parul Pathak</p>
+											<p class="mem" style="color: rgb(100,100,255); font-size: 13px;"></p>
+											<p style=" text-align : center; margin-bottom: 40px; color: rgb(50,50,255); margin-top: 10px; "><i class="fa fa-envelope" aria-hidden="true" style="margin-right: 10px;"></i>ankur.india128@gmail.com</p>
+										</div>
+										
+									</div>
+
+									<div class="col-md-5">
+										<img class="img-responsive" src="/static/images/image4.jpg"  style="border : 1px solid rgb(128,128,255); border-radius: 5px 5px; box-shadow: 0px 0px 10px rgba(128,128,255,0.9);" width="300px" alt = "logo" />
+										<div style="margin-top : 10px; margin-bottom: 10px; ">
+											<p class="mem" style="color: rgb(60,60,255); font-size: 20px; margin-right: 5px; ">Anshuman Satpathy</p>
+											<p class="mem" style="color: rgb(100,100,255); font-size: 13px;"></p>
+											<p style=" text-align : center; margin-bottom: 40px; color: rgb(50,50,255); margin-top: 10px; "><i class="fa fa-envelope" aria-hidden="true" style="margin-right: 10px;"></i>ankur.india128@gmail.com</p>
+										</div>
+										
+									</div>
+	  
+								</div>
+
+								
+
+								<script>
+									var slideIndex = 1;
+									showDivs(slideIndex);
+
+									function plusDivs(n) {
+	  									showDivs(slideIndex += n);
+									}
+
+									function showDivs(n) {
+	  									var i;
+	  									var x = document.getElementsByClassName("mySlides");
+	  									if (n > x.length) {slideIndex = 1}
+	  									if (n < 1) {slideIndex = x.length}
+	  									for (i = 0; i < x.length; i++) {
+	     									x[i].style.display = "none";
+	  									}
+	  									x[slideIndex-1].style.display = "block";
+									}
+								</script>
+
+
+
+								<div class="col-md-1" style="margin-top: 130px; ">
+									<img class="img-responsive" src="/static/images/move2.png" width="50px" alt = "logo" style="cursor: pointer; " onclick="plusDivs(1)"/>
+								</div>
+
+								</div>
+							</div>
+
+							
+
+						
+					</div>
+
+
+					<div class="col-md-12 foot" id="footer" style="background-color: rgba(0,0,125,0.8)">
+						<div class="col-md-10 col-md-offset-1" style="float: center;">
+							<p class="intro" style="text-align:  center; color: white">
+								<i class="fa fa-envelope" aria-hidden="true" style="margin-right: 10px; "></i>sahabhagita@gmail.com,
+								<a href="https://www.facebook.com/Sahabhagita/?__mref=message_bubble" target="_blank"><i class="fa fa-facebook-square icon"></i></a>
+								<a href=">https://twitter.com/SahabhagitaOrg" target="_blank"><i class="fa fa-twitter-square icon"></i></a>
+								<a href="" target="_blank"><i class="fa fa-youtube-square icon"></i></a>
+								</p>
+								<p class="intro" style="text-align: center; color: white;">2016 &#169; Sahabhagita</p>
+								<p class="intro" style="text-align: center; color: white;">Created by <a href="https://itsshivam.github.io/" target="_blank" style="color : rgb(200,200,255);">Shivam Pal</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+</body>
+</html>
